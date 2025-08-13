@@ -108,7 +108,7 @@ form{
     transition: 200ms ease;
 }
 .delete-button:hover svg{
-   fill: #be1212;
+   fill: #bd1212;
 }
 .customcheckbox{
     border: 2px solid var(--accent-color);
