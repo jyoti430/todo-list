@@ -9,7 +9,7 @@ updateTodoList();
 todoForm.addEventListener('submit', function(e){
     e.preventDefault();
     addTodo();
-})
+});
 
 function addTodo(){
     const todoText = todoInput.value.trim();
@@ -31,7 +31,7 @@ function updateTodoList(){
     allTodos.forEach((todo,todoIndex) =>{
         todoItem = createTodoItem(todo, todoIndex);
         todoListUL.append(todoItem);
-    })
+    });
 }
 function createTodoItem(todo, todoIndex){
     const todoId = "todo-"+todoIndex;
